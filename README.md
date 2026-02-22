@@ -1,10 +1,26 @@
+# Demonstation of Vega graphics using Denver RTD data
+
+The [Vega project](https://vega.github.io/) created a fantastic (and underutilized) grammar of visualization and Javascript tools to embed charts in web pages. The grammar is analagous to ggplot for R, but it is more universal in scope and accessibility. 
+
+### Environment
+
+The Jupyter environment may be setup using the `requirements.txt` file.
+```
+python -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+
+### Viewing the notebook
 
 
-[Open Jupyter notebook in Google Collab.](https://colab.research.google.com/github/kcanderson/vega-lite-test/blob/main/vega_notebook.ipynb)
+The Jupyter notebook can be opened locally or in [Google Collab](https://colab.research.google.com/github/kcanderson/vega-lite-test/blob/main/vega_notebook.ipynb).
+
+### Chart artifacts from notebook
 
 [Chart 1](https://rawcdn.githack.com/kcanderson/vega-lite-test/a8e36778b3137ff005c4981ce4b509345162d7d8/charts/box_plot_headways_by_hour.html)
 
-[Chart 1](https://rawcdn.githack.com/kcanderson/vega-rtd-test/05d0780de13dd57f00587424d143c0b65a906449/charts/box_plot_headways_by_route.html)
+[Chart 2](https://rawcdn.githack.com/kcanderson/vega-rtd-test/05d0780de13dd57f00587424d143c0b65a906449/charts/box_plot_headways_by_route.html)
 
 
 
