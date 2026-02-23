@@ -1,10 +1,13 @@
 # Demonstation of Vega graphics using Denver RTD data
 
-The [Vega project](https://vega.github.io/) created a fantastic (and underutilized) grammar of visualization and Javascript tools to embed charts in web pages. The grammar is analagous to ggplot for R, but it is more universal in scope and accessibility. 
+The [Vega project](https://vega.github.io/) created a fantastic (and underutilized) grammar of visualization, along with Javascript tools to embed charts in web pages. The grammar is analagous to ggplot for R, but it is more universal in scope and accessibility. 
+
+The purpose of this project is to demonstrate how Vega may be used to visualize a dataset. Here I'm using a dataset from the Regional Transportation District of Denver. I take integrate the bus/rail routes with trip timings to estimate headway times.
 
 ### Environment
 
-The Jupyter environment may be setup using the `requirements.txt` file.
+My Jupyter environment may be created using the `requirements.txt` file.
+
 ```
 python -m venv env
 source env/bin/activate
@@ -12,7 +15,6 @@ pip install -r requirements.txt
 ```
 
 ### Viewing the notebook
-
 
 The Jupyter notebook can be opened locally or in [Google Collab](https://colab.research.google.com/github/kcanderson/vega-lite-test/blob/main/vega_notebook.ipynb).
 
