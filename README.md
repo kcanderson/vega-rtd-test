@@ -1,6 +1,6 @@
-# Demonstation of Vega graphics using Denver RTD data
+# Demonstration of Vega graphics using Denver RTD data
 
-The [Vega project](https://vega.github.io/) created a fantastic (and underutilized) grammar of visualization, along with Javascript tools to embed charts in web pages. The grammar is analagous to ggplot for R, but it is more universal in scope and accessibility. 
+The [Vega project](https://vega.github.io/) created a fantastic (and underutilized) grammar of visualization, along with Javascript tools to embed charts in web pages. The grammar is analogous to ggplot for R, but it is more universal in scope and accessibility. 
 
 The purpose of this project is to demonstrate how Vega may be used to visualize a dataset. Here I'm using a dataset from the Regional Transportation District of Denver. I take integrate the bus/rail routes with trip timings to estimate headway times.
 
